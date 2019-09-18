@@ -46,9 +46,15 @@
   }
 
   .contact-title {
-    font-size: 4rem;
+    font-size: 2rem;
+    font-weight: 100;
     margin: 0 0 4rem 0;
     padding: 0;
+  }
+
+  .label {
+    /* font-size: 2rem; */
+    font-weight: 100;
   }
 
   .sender-info {

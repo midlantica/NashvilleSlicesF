@@ -34,6 +34,7 @@
     padding: 0;
     font-size: 1em;
     background: var(--color-base);
+    background: #f8f8f8;
     color: var(--color-contrast);
     transition: background 0.5s ease;
   }
@@ -61,12 +62,12 @@
   .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 0rem;
   }
 
   @media (min-width: 860px) {
     .container {
-      padding: 0 6rem;
+      padding: 0 0rem;
     }
   }
 

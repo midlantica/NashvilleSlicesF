@@ -1,6 +1,6 @@
 ---
-thumbnail: "/uploads/markus-spiske-516263-unsplash.jpg"
-title: Porta400
+thumbnail: "/uploads/mural-01.jpg"
+title: Mural on 8th St and Clarkesville Ave Donec id elit non mi porta gravida at eget metus.
 date: 2019-01-03
 categories:
 - photography
@@ -9,4 +9,4 @@ project_bg_color: ''
 project_fg_color: ''
 
 ---
-![](/uploads/markus-spiske-516263-unsplash.jpg)
+![](/uploads/mural-01.jpg)

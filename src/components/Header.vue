@@ -8,9 +8,9 @@
           </div>
         </g-link>
       </div>
-      <nav class="nav right">
+      <nav class="right">
         <!-- <g-link class="nav__link" to="/journal">Journal</g-link> -->
-        <g-link class="nav__link" to="/contact">Contact</g-link>
+        <g-link to="/contact">Contact</g-link>
       </nav>
     </div>
   </header>
@@ -65,7 +65,7 @@
     text-transform: uppercase;   
   }
 
-  .nav > * {
+  nav > * {
     font-size: 0.9rem;
     font-weight: 600;
     text-decoration: none;
@@ -77,15 +77,19 @@
     transition: border 0.15s;
   }
 
-  .nav > *:last-of-type {
+  nav a {
+    color:  black;
+  }
+
+  nav > *:last-of-type {
     margin: 0;
   }
 
-  .nav > *:hover {
+  nav > *:hover {
     border-color: inherit;
   }
 
-  .nav > .active {
+  nav > .active {
     border-color: inherit;
   }
 

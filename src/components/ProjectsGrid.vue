@@ -29,14 +29,36 @@
 
 <style scoped>
   .projects {
-    display: grid;
+/*     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3rem;
+    // */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 0 2em;
   }
 
   .project {
-    grid-column: auto / span 2;
+    /* grid-column: auto / span 2;
+    text-align: center; 
+    */
+    margin: 0 0 1em 0;
     text-align: center;
+    border-radius: 2px;    
+    max-width: calc(100% / 3 - 10%);
+    min-width: 260px;
+    margin: 10px;
+    height: 340px;
+    background: white;
+    box-shadow: 0px 0px 2px -1px rgba(0,0,0,0.5);
+  }
+
+  .project:hover {
+    transform: scale(1.02);
+    box-shadow: 0 20px 40px -20px rgba(0,0,0,0.25);
   }
 
   .project-link {
@@ -44,8 +66,9 @@
   }
 
   .thumbnail {
-    height: 560px;
+    height: 240px;
     object-fit: cover;
+    border-radius: 2px 2px 0px 0px;
     transition: all 0.15s ease;
     box-shadow: 0 0 40px -20px rgba(0,0,0,0.25);
   }
@@ -71,18 +94,18 @@
     margin: 0;
   }
 
-  .project:hover .thumbnail {
+/*   .project:hover .thumbnail {
     transform: scale(1.02);
     box-shadow: 0 20px 40px -20px rgba(0,0,0,0.25);
-  }
+  } */
 
   @media (min-width: 920px) {
     .project {
-      grid-column: auto / span 1;
+      /* grid-column: auto / span 1; */
     }
     
     .project:nth-child(3n+1) {
-      grid-column: auto / span 2;
+      /* grid-column: auto / span 2; */
     }
   }
 

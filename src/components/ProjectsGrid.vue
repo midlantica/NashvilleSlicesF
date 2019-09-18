@@ -31,7 +31,7 @@
   .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 4rem;
+    grid-gap: 3rem;
   }
 
   .project {
@@ -53,12 +53,14 @@
   .project-title {
     font-size: 1rem;
     color: var(--color-contrast);
-    margin: 2rem 0 1rem 0;
+    margin: 1rem 0 0.5rem 0;
+    font-weight: 400;
   }
 
   .categories {
     font-size: 0.8rem;
     color: var(--color-contrast-1);
+    font-weight: 200;
   }
 
   .category {

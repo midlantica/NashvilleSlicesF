@@ -2,11 +2,11 @@
 // Learn more: https://gridsome.org/docs/config
 
 module.exports = {
-  siteName: "Portfolio",
-  siteUrl: `https://www.itsnwa.com`,
+  siteName: "Nashville Slices",
+  siteUrl: `https://www.nashvilleslices.com`,
   host: "0.0.0.0",
-  titleTemplate: "%s - NWA",
-  siteDescription: "Creative technologist",
+  titleTemplate: "%s - NashvilleSlices",
+  siteDescription: "Nashville slices of life",
   plugins: [
     {
       use: "@gridsome/source-filesystem",

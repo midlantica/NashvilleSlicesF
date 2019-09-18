@@ -25,8 +25,8 @@ export default {
   }
 
   .hero-title {
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 100;
     padding: 0;
     margin: 0 0 2rem 0;
   }

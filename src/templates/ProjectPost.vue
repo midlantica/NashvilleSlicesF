@@ -62,6 +62,7 @@
 </script>
 
 <style scoped>
+
   .project-header {
     padding: 20vh 0 4rem 0;
   }

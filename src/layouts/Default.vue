@@ -29,10 +29,10 @@
     --color-base-1: rgb(243, 243, 243);
     --color-contrast: rgb(0, 0, 0);
     --color-contrast-1: rgb(43, 43, 43);
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: Barlow,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     margin:0;
     padding: 0;
-    font-size: 16px;
+    font-size: 1em;
     background: var(--color-base);
     color: var(--color-contrast);
     transition: background 0.5s ease;
@@ -47,6 +47,7 @@
 
   h1 {
     letter-spacing: -0.01em;
+    /* font-size: 2em; */
   }
 
   .layout {

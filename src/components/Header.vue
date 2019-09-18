@@ -54,7 +54,7 @@
 
   .logo {
     font-size: 1.25em;
-    /* height: 1.5rem; */
+    color: black;
   }
 
   .site-name {

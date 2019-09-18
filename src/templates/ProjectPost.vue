@@ -54,7 +54,7 @@
       return {
         title: this.$page.post.title,
         bodyAttrs: {
-          style: `background-color: ${this.$page.post.project_bg_color ? this.$page.post.project_bg_color : 'var(--color-base)'}; color: ${this.$page.post.project_fg_color ? this.$page.post.project_fg_color : 'var(--color-contrast)'}`
+          style: `background-color: ${this.$page.post.project_bg_color ? this.$page.post.project_bg_color : 'var(--color-base)'}; color: ${this.$page.post.project_fg_color ? this.$page.post.project_fg_color : 'var(--color-base)'}`
         }
       }
     }
@@ -64,19 +64,26 @@
 <style scoped>
 
   .project-header {
-    padding: 20vh 0 4rem 0;
+    padding: 15vh 0 1rem 0;
+    /* padding: 20vh 0 4rem 0; */
   }
 
   .project-title {
-    font-size: 4rem;
-    margin: 0 0 4rem 0;
+    font-size: 2rem;
+    margin: 0 0 2rem 0;
     padding: 0;
+    font-weight:  200;
+    color:  black;
+  }
+
+  .label {
+    color: black;
   }
 
   .project-info {
     display: flex;
     flex-wrap: wrap;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .project-info > div {
@@ -87,11 +94,23 @@
     margin: 0;
   }
 
+  .category {
+    color:  black;
+  }
+
   .category:after {
     content: ', '
   }
   
   .category:last-of-type:after {
     content: '';
+  }
+
+  .year-container {
+    color: black;
+  }
+
+  .content {
+    color: black;
   }
 </style>

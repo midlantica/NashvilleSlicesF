@@ -20,14 +20,14 @@
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   
   h4, h5, h6 {
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
 </style>

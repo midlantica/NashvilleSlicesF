@@ -21,7 +21,7 @@ export default {
     width: 480px;
     max-width: 100%;
     margin: 0 auto;
-    padding: 4rem 0 8rem 0;
+    padding: 1rem 0 4rem 0;
   }
 
   .hero-title {

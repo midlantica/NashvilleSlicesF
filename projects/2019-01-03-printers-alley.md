@@ -1,12 +1,12 @@
 ---
-date: 2019-05-16
-year: 2019
 title: Printers Alley
+date: 2019-05-16
 category: downtown
 thumbnail: "/uploads/cropped-printers-alley.jpg"
 categories:
 - photography
-- bridge
+- downtown
+- alley
 project_bg_color: ''
 project_fg_color: ''
 

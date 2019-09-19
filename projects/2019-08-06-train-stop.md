@@ -1,12 +1,13 @@
 ---
 thumbnail: "/uploads/train.jpg"
-title: Ice Cream
+title: Train stop
 date: 2019-01-04
 categories:
 - photography
-- yellow
+- train
+- couple
 project_bg_color: ''
-project_fg_color: "#FDC70D"
+project_fg_color: ''
 
 ---
 ![](/uploads/train.jpg)

@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
-    <h1 class="hero-title" v-html="settings.hero_title" />
-    <h2 class="hero-subtitle" v-html="settings.hero_subtitle" />
+    <!-- <h1 class="hero-title" v-html="settings.hero_title" /> -->
+    <h1 class="hero-title" v-html="settings.hero_subtitle" />
   </div>
 </template>
 
@@ -18,17 +18,18 @@ export default {
 <style>
   .hero {
     text-align: center;
-    width: 480px;
-    max-width: 100%;
+    /* width: 480px; */
+    max-width: 80%;
     margin: 0 auto;
-    padding: 1rem 0 4rem 0;
+    padding: 1rem 0 1rem 0;
   }
 
   .hero-title {
-    font-size: 2rem;
-    font-weight: 100;
+    font-size: 1.5rem;
+    font-weight: 300;
     padding: 0;
     margin: 0 0 2rem 0;
+    color: #464646;
   }
   
   .hero-title p,

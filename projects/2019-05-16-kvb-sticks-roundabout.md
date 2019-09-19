@@ -1,12 +1,13 @@
 ---
 date: 2019-05-16
 year: 2019
-title: Korean Vetrerans Bridge
-category: Bridge
+title: Korean Vetrerans Bridge Sticks Roundabout
+category: Downtown
 thumbnail: "/uploads/sticks-jump.jpg"
 categories:
 - photography
-- bridge
+- KVB
+- Sticks Roundabout
 project_bg_color: ''
 project_fg_color: ''
 

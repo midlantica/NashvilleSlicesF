@@ -19,8 +19,8 @@
 <style scoped>
   .footer {
     font-size: 0.8rem;
-    padding: 6rem 0;
-    /* text-align: center; */
+    padding: 2rem 0 3rem;
+    text-align: center;
     /* font-size: 2rem; */
     color:  grey;
     font-weight: 100;

@@ -1,12 +1,13 @@
 ---
 date: 2019-05-16
 year: 2019
-title: Banana
+title: Neal on govt building steps
 category: Identity
 thumbnail: "/uploads/guy-on-steps.jpg"
 categories:
 - photography
-- pink
+- Neal Smith
+- Capital building steps
 project_bg_color: ''
 project_fg_color: ''
 

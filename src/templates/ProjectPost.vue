@@ -63,6 +63,20 @@
 
 <style scoped>
 
+  /* ---------------------- */
+
+  table td {
+    width: 100px;
+    height: 100px;
+  }
+
+  img.imgGrid {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  /* ---------------------- */
+
   .project-header {
     padding: 1rem 0 1rem 0;
     /* padding: 20vh 0 4rem 0; */

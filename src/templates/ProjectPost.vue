@@ -64,7 +64,7 @@
 <style scoped>
 
   .project-header {
-    padding: 15vh 0 1rem 0;
+    padding: 1rem 0 1rem 0;
     /* padding: 20vh 0 4rem 0; */
   }
 

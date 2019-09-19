@@ -3,8 +3,8 @@
     <div class="container">
       <Hero />
       <ProjectsGrid :projects="$page.projects.edges" />
+      <!-- <LatestJournals :journals="$page.journals.edges" /> -->
     </div>
-    <!-- <LatestJournals :journals="$page.journals.edges" /> -->
   </Layout>
 </template>
 
@@ -38,3 +38,7 @@
     }
   }
 </script>
+
+<style>
+  
+</style>

@@ -1,34 +1,32 @@
 <template>
   <Layout>
     <div class="container">
+      <div class="contactWrap">
+        <div class="contact-header">
+          <h1 class="contact-title">Contact</h1>
+          <p>Leave me a note with any questions you might have, I'll get back to you as soon as possible.</p>
+        </div>
+        <form class="contact-form" name="contact">
 
-      <div class="contact-header">
-        <h1 class="contact-title">Say hi!</h1>
-        <p>Leave me a note with any questions you might have, I'll get back to you as soon as possible.</p>
+          <div class="sender-info">
+            <div>
+              <label for="name" class="label">Your name</label>
+              <input type="text" name="name" />
+            </div>
+            <div>
+              <label for="email" class="label">Your email</label>
+              <input type="email" name="email" />
+            </div>
+          </div>
+
+          <div class="message">
+            <label for="message" class="label">Message</label>
+            <textarea name="message"></textarea>
+          </div>
+
+          <button class="button">Submit form</button>
+        </form>
       </div>
-
-      <form class="contact-form" name="contact">
-
-        <div class="sender-info">
-          <div>
-            <label for="name" class="label">Your name</label>
-            <input type="text" name="name" />
-          </div>
-          <div>
-            <label for="email" class="label">Your email</label>
-            <input type="email" name="email" />
-          </div>
-        </div>
-
-        <div class="message">
-          <label for="message" class="label">Message</label>
-          <textarea name="message"></textarea>
-        </div>
-
-        <button class="button">Submit form</button>
-
-      </form>
-
     </div>
   </Layout>
 </template>
@@ -50,6 +48,22 @@
     font-weight: 100;
     margin: 0 0 4rem 0;
     padding: 0;
+  }
+
+  .contactWrap {
+    padding: 0 1em;
+  }
+
+  @media (min-width: 900px) {
+    .contactWrap {
+      padding: 0 8em;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .contactWrap {
+      padding: 0 12em;
+    }
   }
 
   .label {
@@ -77,8 +91,10 @@
   }
 
   input,textarea {
-    background: transparent;
-    border: 1px solid var(--color-base-1);
+    background: rgba(255, 255, 255, 0.5);
+    /* background: transparent; */
+    border: 1px solid lightgrey;
+    /* border: 1px solid var(--color-base-1); */
     outline: none;
     border-radius: 0.3rem;
     padding: 0.8rem 1rem;

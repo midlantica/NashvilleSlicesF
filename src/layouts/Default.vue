@@ -1,7 +1,9 @@
 <template>
   <div class="layout" :class="{ 'sticky-header': $route.path === '/' }">
     <Header />
+
     <slot/>
+
     <Footer />
   </div>
 </template>
@@ -17,7 +19,6 @@
     }
   }
 </script>
-
 
 <style>
   * {
@@ -53,22 +54,11 @@
 
   .layout {
     padding: 0;
+    padding: 8rem 0 0 0;
   }
 
   .layout.sticky-header {
-    padding: 6rem 0 0 0;
-  }
-
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 0rem;
-  }
-
-  @media (min-width: 860px) {
-    .container {
-      padding: 0 0rem;
-    }
+    /*  */
   }
 
   a {

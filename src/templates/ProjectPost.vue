@@ -63,20 +63,6 @@
 
 <style scoped>
 
-  /* ---------------------- */
-
-  table td {
-    width: 100px;
-    height: 100px;
-  }
-
-  img.imgGrid {
-    width: 100px !important;
-    height: 100px !important;
-  }
-
-  /* ---------------------- */
-
   .project-header {
     padding: 1rem 0 1rem 0;
     /* padding: 20vh 0 4rem 0; */
@@ -85,7 +71,7 @@
   .project-title {
     font-size: 2rem;
     margin: 0 0 2rem 0;
-    padding: 0;
+    padding: 0 1em;
     font-weight:  200;
     color:  black;
   }
@@ -105,7 +91,7 @@
   }
 
   .project-info > div:last-of-type {
-    margin: 0;
+    /* margin: 0; */
   }
 
   .category {

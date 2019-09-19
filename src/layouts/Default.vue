@@ -55,10 +55,13 @@
   .layout {
     padding: 0;
     padding: 8rem 0 0 0;
+    margin: 0 auto;
+    /* text-align: center; */
+    max-width: 1600px;
   }
 
   .layout.sticky-header {
-    /*  */
+    /* max-width: 1600px; */
   }
 
   a {

@@ -65,13 +65,12 @@
 
   .project-header {
     padding: 1rem 0 1rem 0;
-    /* padding: 20vh 0 4rem 0; */
   }
 
   .project-title {
     font-size: 2rem;
     margin: 0 0 2rem 0;
-    padding: 0 1em;
+    padding: 0 0em;
     font-weight:  200;
     color:  black;
   }
@@ -91,19 +90,17 @@
   }
 
   .project-info > div:last-of-type {
-    /* margin: 0; */
+
   }
 
   .category {
-    color:  black;
-  }
-
-  .category:after {
-    content: ', '
-  }
-  
-  .category:last-of-type:after {
-    content: '';
+    color: black;
+    margin: 0.1em 0.1rem;
+    background: hsla(0, 0%, 95%, 0.9);
+    padding: 0.25em 1em .3em;
+    border-radius: 2.25em;
+    font-size: 0.85em;
+    display: inline-block;
   }
 
   .year-container {

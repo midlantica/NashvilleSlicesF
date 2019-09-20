@@ -40,13 +40,13 @@
 <style scoped>
 
   .contact-header {
-    padding: 2rem 0 4rem 0;
+    padding: 1rem 0 2rem 0;
   }
 
   .contact-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 100;
-    margin: 0 0 4rem 0;
+    margin: 0 0 2rem 0;
     padding: 0;
   }
 
@@ -79,22 +79,28 @@
 
   .sender-info > div {
     flex: 1;
-    margin-right: 4rem;
+    margin-right: 2rem;
   }
 
   .sender-info > div:last-of-type {
     margin: 0;
   }
 
+  @media (max-width: 600px) {
+    .sender-info > div {
+      flex: 100%;
+      margin-right: 0;
+      margin-bottom: 2em;
+    }
+  }
+
   input:focus,textarea:focus {
-    border-color: var(--color-contrast-1);
+    border-color: #bbb;
   }
 
   input,textarea {
     background: rgba(255, 255, 255, 0.5);
-    /* background: transparent; */
     border: 1px solid lightgrey;
-    /* border: 1px solid var(--color-base-1); */
     outline: none;
     border-radius: 0.3rem;
     padding: 0.8rem 1rem;

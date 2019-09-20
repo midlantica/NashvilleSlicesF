@@ -15,42 +15,45 @@ After 15 years working as a graphic designer, Valentina Harper (formerly Ramos) 
 In her Nashville studio, this Venezuelan artist spent countless happy hours playing with her paints and her Rapidograph pens. She enjoys working with different materials, but black ink is one of the mediums you will always find in her original prints, paintings and drawings. Her love for artworks with little intricate details are a signature of her own drawing style.
 
 <div class="imgGrid">
-  <img src="/assets/static/uploads/valentina-mural-nolensvile.jpg" alt="nolensvile">
-  <img src="/assets/static/uploads/valentina/hello_person.jpg" alt="hello_person">
-  <img src="/assets/static/uploads/valentina/aaron.jpg" alt="aaron">
-  <img src="/assets/static/uploads/valentina/alexis.jpg" alt="alexis">
-  <img src="/assets/static/uploads/valentina/arabella2.jpg" alt="arabella2">
-  <img src="/assets/static/uploads/valentina/barkysimeto.jpg" alt="barkysimeto">
+![](/uploads/valentina/barkysimeto.jpg)
+
+![](/uploads/valentina/hello_person.jpg)![](/uploads/valentina/aaron.jpg)![](/uploads/valentina/arabella2.jpg)![](/uploads/valentina/alexis.jpg)
+
+<img src="/assets/static/uploads/valentina-mural-nolensvile.jpg" alt="nolensvile">
+<img src="/assets/static/uploads/valentina/hello_person.jpg" alt="hello_person">
+<img src="/assets/static/uploads/valentina/aaron.jpg" alt="aaron">
+<img src="/assets/static/uploads/valentina/alexis.jpg" alt="alexis">
+<img src="/assets/static/uploads/valentina/arabella2.jpg" alt="arabella2">
+<img src="/assets/static/uploads/valentina/barkysimeto.jpg" alt="barkysimeto">
 </div>
 
-
-[ValentinaDesign.com] (http://valentinadesign.com)
+\[ValentinaDesign.com\] (http://valentinadesign.com)
 
 <style scoped>
 
-  .imgGrid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
+.imgGrid {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
 
-  .imgGrid img {
-    margin: .5em;
-    width: 30%;
-  }
+.imgGrid img {
+margin: .5em;
+width: 30%;
+}
 
-  @media (max-width: 800px) {
-    .imgGrid img {
-      width: 45%;
-    }
-  }
+@media (max-width: 800px) {
+.imgGrid img {
+width: 45%;
+}
+}
 
-  @media (max-width: 600px) {
-    .imgGrid img {
-      width: 100%;
-    }
-  }
-  
+@media (max-width: 600px) {
+.imgGrid img {
+width: 100%;
+}
+}
+
 </style>

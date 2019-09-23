@@ -25,29 +25,29 @@ In her Nashville studio, this Venezuelan artist spent countless happy hours play
 
 <style scoped>
 
-  .imgGrid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
+.imgGrid {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
 
-  .imgGrid img {
-    margin: .5em;
-    width: 30%;
-  }
+.imgGrid img {
+margin: .5em;
+width: 30%;
+}
 
-  @media (max-width: 800px) {
-    .imgGrid img {
-      width: 45%;
-    }
-  }
+@media (max-width: 800px) {
+.imgGrid img {
+width: 45%;
+}
+}
 
-  @media (max-width: 600px) {
-    .imgGrid img {
-      width: 100%;
-    }
-  }
-  
+@media (max-width: 600px) {
+.imgGrid img {
+width: 100%;
+}
+}
+
 </style>

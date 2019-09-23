@@ -4,7 +4,6 @@
       <div class="contactWrap">
         <div class="contact-header">
           <h1 class="contact-title">Contact</h1>
-          <p>Leave me a note with any questions you might have, I'll get back to you as soon as possible.</p>
         </div>
         <form class="contact-form" name="contact">
 
@@ -40,7 +39,7 @@
 <style scoped>
 
   .contact-header {
-    padding: 1rem 0 2rem 0;
+    padding: 0.5rem 0 1rem 0;
   }
 
   .contact-title {

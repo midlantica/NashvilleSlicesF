@@ -63,7 +63,7 @@
     }
   }
 
-    @media (max-width: 500px) {
+  @media (max-width: 500px) {
     .project {
       max-width: calc(100%);
       min-width: 260px;

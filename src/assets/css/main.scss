@@ -1,0 +1,21 @@
+// VENDORS
+@import '~@/assets/css/vendor/normalize.css';
+@import '~@/assets/css/vendor/html5Boilerplate.css';
+@import '~@/assets/fonts/Barlow/Barlow.css';
+
+// SETTINGS
+@import 'utilities/_Autilities_base';
+@import 'colors';
+
+@import 'base';
+// @import 'nav';
+// @import 'typography';
+// @import 'animations';
+// FONTS
+
+// BREAKPOINTS
+$breakThou:  1024px;
+$breakOne:   840px;
+$breakTwo:   630px;
+$breakThree: 430px;
+$breakFour:  320px;

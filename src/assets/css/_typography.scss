@@ -1,0 +1,84 @@
+h1, h2, h3, h4, h5 {
+  color: lighten($grey, 10);
+  // font-size: 2.5em;
+  line-height: 1.1em;
+  font-weight: normal;
+  // text-align: left;
+  margin: .25em 1em .25em 0;
+  padding: 0;
+  letter-spacing: 0em;
+  // text-transform: uppercase;
+  font-family: $font-head !important;
+  -moz-osx-font-smoothing: grayscale;   // Firefox
+  -webkit-font-smoothing:  antialiased; // WebKit
+  //
+  color: inherit;
+  border: 0;
+  // display: inline-block;
+  // background: -webkit-gradient(linear,left top,right top,from(#ff8a00),to(#da1b60));
+  // background: linear-gradient(to right,#ff8a00,#da1b60);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  // -webkit-box-decoration-break: clone;
+  // box-decoration-break: clone;
+  text-shadow: none;
+
+}
+
+h1 {
+  font-size: 1.5em;
+  // color: $accent;
+  // text-transform: capitalize;
+  font-family: $font-head !important;
+}
+
+h2 {
+  font-size: 1.25em;
+  // color: $accent;
+  // text-transform: capitalize;
+  font-family: $font-subhead !important;
+}
+
+h3 {
+  font-size: 1em;
+  // color: $blue-dark;
+}
+
+h4 {
+  font-size: 1em;
+  letter-spacing: .04em;
+}
+
+h5 {
+  font-size: $base-font-size;
+}
+
+p {
+  font-family: $font-copy !important;
+  font-size: $base-font-size;
+  // color: $blue-mid;
+  line-height: $base-line-height;
+  font-weight: normal;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: square;
+  padding: 0;
+  // margin: 0 -1em 1em 0em;
+  font-family: $font-copy !important;
+  color: $blue-mid;
+  line-height: $base-line-height;
+  text-align: left;
+
+  li {
+    list-style-position: outside;
+    margin: .25em 0em 0 1em;
+    padding-left: -1em;
+    line-height: 1.6em;
+  }
+}
+
+

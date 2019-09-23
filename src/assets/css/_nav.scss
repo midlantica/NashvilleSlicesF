@@ -1,0 +1,134 @@
+// @import 'base';
+// @import 'colors';
+
+nav {
+  font-family: $font-subhead;
+  font-size: 1em;
+  //
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  //
+  background: $black;
+  padding: 1em;
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
+  
+  a.navButtons.logo {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+      
+      &.visited {
+        color: $ivory !important;
+      }
+
+      &.router-link-exact-active {
+        color: $ivory !important;
+        text-decoration: none;
+      }
+
+      &.router-link-active {
+        color: $ivory !important;
+        text-decoration: none;
+      }
+
+    .brandName {
+      font-family: barlow-semibold;
+      font-size: 1em;
+      letter-spacing: 0.05em;
+      text-decoration: none !important;
+      color: transparentize(orangered, .25);
+      margin: 0em 1em 0em .5em;
+
+      @media (max-width: 500px) {
+        margin: .25em 1em 0;
+      }
+
+    }
+
+    @media (max-width: 500px) {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 0.5em;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 0.5em;
+    }
+
+    img {
+      width: 30px;
+    }
+  }
+
+  .btn {
+    flex-wrap: wrap;
+    // flex-grow: 1;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    // text-align: center;
+
+    @media (max-width: 500px) {
+      align-content: flex-start;
+      align-items: flex-start;
+    }
+
+    .navButtons {
+      width: 100px;
+      margin: 0 auto; 
+
+      @media (max-width: 500px) {
+        flex-direction: column;
+        width: 100%;
+        margin: 0; 
+        text-align: center;
+      }
+
+      a {
+        // font-family: barlow-con-bold;
+        // font-weight: bold;
+        color: $ivory !important;
+        text-decoration: none;
+
+        &.visited {
+          color: $ivory !important;
+        }
+
+        &.router-link-exact-active {
+          color: $ivory !important;
+          text-decoration: none;
+        }
+
+        &.router-link-active {
+          color: $ivory !important;
+          text-decoration: none;
+        }
+      }
+
+    }
+  }
+
+}
+
+nav > div > a {
+  text-decoration: none;
+  color: $ivory !important;
+
+  &.hover,
+  &.active,
+  &.visted,
+  &.router-link-exact-active {
+    color: $accent !important;
+    text-decoration: line;
+  }
+}
+

@@ -47,6 +47,16 @@
     --color-contrast-1: rgb(243, 243, 243);
   }
 
+  .container {
+    padding: 0 1rem;
+  }
+
+  @media (min-width: 860px) {
+    .container {
+      padding: 0 2rem;
+    }
+  }
+
   h1 {
     letter-spacing: -0.01em;
     /* font-size: 2em; */

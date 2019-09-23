@@ -47,16 +47,6 @@
     height: 100%;
   }
 
-  .container {
-    padding: 0 1rem;
-  }
-
-  @media (min-width: 860px) {
-    .container {
-      padding: 0 4rem;
-    }
-  }
-
   .home-link {
     text-decoration: none;
   }

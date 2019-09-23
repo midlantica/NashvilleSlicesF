@@ -1,0 +1,18 @@
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// @include clearfix;
+
+.clearfix {
+  //
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

@@ -1,0 +1,52 @@
+// COLORS
+$grey:       #333;
+$blue-dark:  rgba(70,100,110,1);
+$blue-mid:   rgba(91,125,150,1);
+$blue-light: rgba(143,169,194,1);
+$accent:     rgba(236,180,105,1.0);
+// $accent:     orange;
+$ivory:      rgba(255,253,244,1);
+$orange:     rgba(227,66,52,1.0);
+$paleyellow: rgba(255,255,191,0.6);
+$accent-red: #C02C19;
+$white:      white;
+$black:      #0d0d0d; // BLACK
+
+$green:      #008900; // GREEN
+$darkGreen:  darken($green, 25);
+$lightGreen: lighten($green, 15);
+
+@mixin link-colors($normal, $hover: false, $active: false, $visited: false, $focus: false) {
+  color: $normal;
+  @if $visited {
+    &:visited {
+      color: $visited;
+    }
+  }
+  @if $focus {
+    &:focus {
+      color: $focus;
+    }
+  }
+  @if $hover {
+    &:hover {
+      color: $hover;
+    }
+  }
+  @if $active {
+    &:active {
+      color: $active;
+    }
+  }
+}
+
+// link colors (normal, hover, active, visited, focus)
+a {
+  @include link-colors(
+    $blue-dark,  // normal
+    $accent,     // hover
+    $blue-mid,   // active
+    $grey,       // visited
+    $blue-dark   // focus
+  );
+}

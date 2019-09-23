@@ -14,15 +14,12 @@ After 15 years working as a graphic designer, Valentina Harper (formerly Ramos) 
 
 In her Nashville studio, this Venezuelan artist spent countless happy hours playing with her paints and her Rapidograph pens. She enjoys working with different materials, but black ink is one of the mediums you will always find in her original prints, paintings and drawings. Her love for artworks with little intricate details are a signature of her own drawing style.
 
-<div class="imgGrid">
-  <img src="/assets/static/uploads/valentina-mural-nolensvile.jpg" alt="nolensvile">
-  <img src="/assets/static/uploads/valentina/hello_person.jpg" alt="hello_person">
-  <img src="/assets/static/uploads/valentina/aaron.jpg" alt="aaron">
-  <img src="/assets/static/uploads/valentina/alexis.jpg" alt="alexis">
-  <img src="/assets/static/uploads/valentina/arabella2.jpg" alt="arabella2">
-  <img src="/assets/static/uploads/valentina/barkysimeto.jpg" alt="barkysimeto">
-</div>
-
+![Valentina art](/uploads/valentina-mural-nolensvile.jpg)
+![Valentina art](/uploads/valentina/hello_person.jpg)
+![Valentina art](/uploads/valentina/aaron.jpg)
+![Valentina art](/uploads/valentina/alexis.jpg)
+![Valentina art](/uploads/valentina/arabella2.jpg)
+![Valentina art](/uploads/valentina/barkysimeto.jpg)
 
 [ValentinaDesign.com] (http://valentinadesign.com)
 

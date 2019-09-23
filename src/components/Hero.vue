@@ -29,7 +29,8 @@ export default {
     font-weight: 300;
     padding: 0;
     margin: 0 0 2rem 0;
-    color: #464646;
+    color: red;
+    /* color: #464646; */
   }
   
   .hero-title p,

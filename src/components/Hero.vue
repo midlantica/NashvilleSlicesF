@@ -25,12 +25,11 @@ export default {
   }
 
   .hero-title {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 300;
     padding: 0;
     margin: 0 0 2rem 0;
-    color: red;
-    /* color: #464646; */
+    color: #464646;
   }
   
   .hero-title p,

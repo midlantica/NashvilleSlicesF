@@ -16,6 +16,22 @@ $green:      #008900; // GREEN
 $darkGreen:  darken($green, 25);
 $lightGreen: lighten($green, 15);
 
+$rainbowMap: (
+  'one': #00be00, 
+  'two': #0099ff,
+  'three': #0700ff,
+  'four': #e10000,
+  'five': #ff5f04,
+  'six': #fdf800,
+);
+
+@function rainbow($key: 'primary') {
+  @return map-get($rainbows, $key);
+}
+
+// $button-color: rainbow('primary'); // #8e3329
+
+
 @mixin link-colors($normal, $hover: false, $active: false, $visited: false, $focus: false) {
   color: $normal;
   @if $visited {

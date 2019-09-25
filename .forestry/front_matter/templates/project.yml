@@ -2,18 +2,6 @@
 label: Project
 hide_body: false
 fields:
-- name: id
-  type: number
-  label: id
-  description: ''
-  default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
-    required: true
-  hidden: true
 - type: file
   name: thumbnail
   label: Thumbnail

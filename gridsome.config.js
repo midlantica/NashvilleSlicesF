@@ -21,6 +21,17 @@ module.exports = {
       }
     }
   ],
+  icon: {
+    favicon: {
+      src: './src/my-favicon.png',
+      sizes: [16, 24, 32, 48, 64, 72, 96, 114, 120, 144, 152, 180],
+    },
+    touchicon: {
+      src: './src/my-touchicon.png',
+      sizes: [76, 152, 120, 167, 152, 180],
+      precomposed: true,
+    },
+  },
   transformers: {
     remark: {
       plugins: ["@gridsome/remark-prismjs"]

@@ -8,31 +8,27 @@
       <span class="colItem colorOrange" />
       <span class="colItem colorYellow" />
     </div>
-    <div class="container">
+    <div class="headContainer">
       <div class="left flexOne">
-        <g-link :to="{ name: 'home' }" class="home-link">
-
-          <svg class="nashSymbol" width="50px" height="51px" viewBox="0 0 50 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <g id="header">
-                      <g id="N-symbol">
-                          <g id="Group-15-Copy-3">
-                              <rect id="Rectangle-Copy-16" fill="#313131" x="0" y="0.5" width="50" height="50"></rect>
-                              <g id="Group-14-Copy-2" transform="translate(5.576957, 8.230337)" fill="#FFFFFF" fill-rule="nonzero">
-                                  <path d="M5.178413,0.769662921 L29.8184525,26.2474882 L29.8180987,5.24166292 L24.7420388,1.43504175 L38.6659666,1.43504175 L33.6690987,5.18166292 L33.6697517,35.7696629 L9.02971217,10.2918377 L9.02909871,30.8256629 L14.0660265,34.6027226 L0.142098706,34.6027226 L5.17809871,30.8246629 L5.178413,0.769662921 Z" id="Combined-Shape"></path>
-                              </g>
-                          </g>
-                      </g>
-                  </g>
-              </g>
-          </svg>
-          <div class="logo" :alt="settings.site_name">
-            {{ settings.site_name }}
-          </div>
-        </g-link>
+        <div class="logoBlock clearfix">
+          <g-link :to="{ name: 'home' }">
+            <svg class="nashSymbol" width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="N-symbol">
+                        <g id="Group">
+                            <rect class="nashSymbolBack" fill="#313131" x="4.97379915e-14" y="4.97379915e-14" width="50" height="50"></rect>
+                            <polygon class="nashSymbolN" fill="#FFFFFF" fill-rule="nonzero" points="10.7743803 7.5 35.4144199 32.9778253 35.4143803 11.972 30.3380062 8.16537883 44.2619339 8.16537883 39.2653803 11.912 39.2657191 42.5 14.6256795 17.0221747 14.6250661 37.556 19.6619938 41.3330597 5.73806605 41.3330597 10.7740661 37.555"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            <div class="logo" :alt="settings.site_name">
+              {{ settings.site_name }}
+            </div>
+          </g-link>
+        </div>
       </div>
       <nav class="right">
-        <!-- <g-link class="nav__link" to="/journal">Journal</g-link> -->
         <g-link class="contact" to="/contact">Contact</g-link>
       </nav>
     </div>
@@ -63,11 +59,12 @@
     width: 100%;
   }
 
-  header > .container {
+  header > .headContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100%;
+    margin: 0 2.15em;
   }
 
   .colorBar {
@@ -114,21 +111,43 @@
   }
 
   .flexOne {
-    flex-grow: 1;
+    flex-grow: 0;
     align-self: center;
   }
 
-  .nashSymbol {
-    float: left;
-    display:  block;
+  .logoBlock {
+    display: block;
+    overflow: both;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:hover .nashSymbol .nashSymbolBack {
+      fill: navy;
+    }
+
+    &:hover .logo {
+      color: navy;
+    }
+
+    .nashSymbol {
+      float: left;
+      display:  block;
+    }
+
+    .logo {
+      font-size: 1.5em;
+      color: black;
+      float: left;
+      margin: 0.4em 0 0 .5em;
+
+      &:hover {
+        color: navy;
+      }
+    }
   }
 
-  .logo {
-    font-size: 1.5em;
-    color: black;
-    float: left;
-    margin: 0.4em 0 0 .5em;
-  }
 
   .site-name {
     font-size: 0.9rem;
@@ -142,8 +161,8 @@
     font-size: 0.9rem;
     font-weight: 600;
     text-decoration: none;
-    margin-top: 4px;
-    margin-right: 3rem;
+    // margin-top: 4px;
+    // margin-right: 3rem;
     padding-bottom: 4px;
     border-bottom: 1px solid;
     border-color: transparent;
@@ -160,10 +179,14 @@
   } */
 
   nav > .contact {
-    /* color: red; */
-    /* font-family: barlow-light; */
+    color: #313131;
     font-weight: 200;
     font-size: 1.25em;
+    
+    &:hover {
+      text-decoration: none;
+      color: #313131;
+    }
   }
 
   nav > *:hover {

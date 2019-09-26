@@ -31,7 +31,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    box-shadow: 0 -2px 8px transparentize(black, .85);
+    box-shadow: 0 -2px 8px transparentize(black, .90);
   }
 
   .marB1 {

@@ -5,12 +5,15 @@
 
       <g-link class="logoBlock" :to="{ name: 'home' }">
         <div class="nashvilleN"></div>
-        <!-- <img class="nashvilleN" src="@/assets/img/nashvilleSliceN.svg" alt="Nashville Slice N"> -->
         <div class="logoType" alt="Nashville Slices">Nashville Slices</div>
       </g-link>
 
       <div class="searchBox">
         <input type="search" name="Search" placeholder="Search...">
+        <div>
+          <script async src="https://cse.google.com/cse.js?cx=016659713516728385973:w42dhavlhis"></script>
+        </div>
+<div class="gcse-search"></div>
       </div>
 
     </div>
@@ -45,7 +48,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    box-shadow: 0 2px 8px transparentize(black, .85);
+    box-shadow: 0 2px 8px transparentize(black, .90);
   }
 
   .headContainer {

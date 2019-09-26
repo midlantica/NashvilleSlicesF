@@ -15,10 +15,9 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
   .hero {
     text-align: center;
-    /* width: 480px; */
     max-width: 80%;
     margin: 0 auto;
     padding: 1rem 0 1rem 0;
@@ -30,6 +29,7 @@ export default {
     padding: 0;
     margin: 0 0 2rem 0;
     color: #464646;
+    letter-spacing: -0.01em;
   }
   
   .hero-title p,

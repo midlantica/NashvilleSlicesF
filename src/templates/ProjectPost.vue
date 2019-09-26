@@ -63,6 +63,10 @@
 
 <style scoped>
 
+  .project {
+    margin:  0 2em;
+  }
+
   .project-header {
     padding: 1rem 0 1rem 0;
   }
@@ -109,5 +113,6 @@
 
   .content {
     color: black;
+    /* margin: 0 2em; */
   }
 </style>

@@ -47,31 +47,15 @@
     --color-contrast-1: rgb(243, 243, 243);
   }
 
-/*   .container {
-    padding: 0 1rem;
-  }
-
-  @media (min-width: 860px) {
-    .container {
-      padding: 0 2rem;
-    }
-  } */
-
-  h1 {
-    letter-spacing: -0.01em;
-    /* font-size: 2em; */
-  }
-
   .layout {
     padding: 0;
     padding: 8rem 0 0 0;
     margin: 0 auto;
-    /* text-align: center; */
     max-width: 1600px;
   }
 
   .layout.sticky-header {
-    /* max-width: 1600px; */
+    // max-width: 1600px;
   }
 
   a {

@@ -1,21 +1,26 @@
 <template>
-  <div class="layout" :class="{ 'sticky-header': $route.path === '/' }">
-    <Header />
+  <div>
+    <colorBar />
+    <div class="layout" :class="{ 'sticky-header': $route.path === '/' }">
+      <Header />
 
-    <slot/>
+      <slot/>
 
-    <Footer />
+      <Footer />
+    </div>
   </div>
 </template>
 
 <script>
   import Header from "@/components/Header"
   import Footer from "@/components/Footer"
+  import colorBar from "@/components/colorBar"
 
   export default {
     components: {
       Header,
-      Footer
+      Footer,
+      colorBar
     }
   }
 </script>

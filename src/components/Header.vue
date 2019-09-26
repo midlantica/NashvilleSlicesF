@@ -11,7 +11,7 @@
       <div class="searchBox">
         <input type="search" name="Search" placeholder="Search...">
         <div>
-          <script async src="https://cse.google.com/cse.js?cx=016659713516728385973:w42dhavlhis"></script>
+          <!-- <script async src="https://cse.google.com/cse.js?cx=016659713516728385973:w42dhavlhis"></script> -->
         </div>
 <div class="gcse-search"></div>
       </div>

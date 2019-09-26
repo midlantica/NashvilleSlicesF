@@ -121,7 +121,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     flex-basis: 25%;
-    justify-content: flex-end;
+    align-items: center;
 
     // @media (min-width: 500px) {
     //   // flex-basis: 10%;

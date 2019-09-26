@@ -1,24 +1,16 @@
 <template>
   <header :class="{sticky: $route.path === '/' || $route.path.includes('/projects/')}">
-
+    <colorBar />
     <div class="headContainer">
 
-        <g-link class="logoBlock" :to="{ name: 'home' }">
-          <div class="nashvilleN"></div>
-          <!-- <img class="nashvilleN" src="@/assets/img/nashvilleSliceN.svg" alt="Nashville Slice N"> -->
-          <div class="logoType" alt="Nashville Slices">Nashville Slices</div>
-        </g-link>
+      <g-link class="logoBlock" :to="{ name: 'home' }">
+        <div class="nashvilleN"></div>
+        <!-- <img class="nashvilleN" src="@/assets/img/nashvilleSliceN.svg" alt="Nashville Slice N"> -->
+        <div class="logoType" alt="Nashville Slices">Nashville Slices</div>
+      </g-link>
 
-      <!-- 
       <div class="searchBox">
         <input type="search" name="Search" placeholder="Search...">
-      </div>
-      -->
-
-      <div class="rightSide">
-        <g-link class="contact" to="/contact">
-          <img src="@/assets/img/iconComment.svg" alt="iconComment">
-        </g-link>
       </div>
 
     </div>
@@ -27,9 +19,10 @@
 </template>
 
 <script>
+  import colorBar from '@/components/colorBar'
   export default {
     components: {
-      //
+      colorBar
     },
     data() {
       return {
@@ -52,6 +45,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    box-shadow: 0 2px 8px transparentize(black, .85);
   }
 
   .headContainer {
@@ -121,6 +115,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     flex-basis: 25%;
+    justify-content: flex-end;
 
     // @media (min-width: 500px) {
     //   // flex-basis: 10%;
@@ -128,31 +123,29 @@
     // }
     
     input {
-      align-item: center;
-      color: black;
-      width: 100%;
-      min-width: 240px;
-      height: 2em;
-      border: 1px solid #fff;
-      border: none;
-      border-bottom: 1px solid #ccc;
-      border-left: 1px solid lighten(#ccc, 10);
-      border-right: 1px solid lighten(#ccc, 10);
-      box-shadow: inset 0px 1px 6px -4px lighten(grey, 20);
-      background: #fff;
-      padding: .25em 1em;
       font-family: barlow-light, Helvetica, Arial, sans-serif;
-      transition: all .25s;
+      color: rgba(128, 128, 128, 1);
+      width: 100%;
+      height: 2em;
+      padding: .25em 1em;
+      background: rgba(255, 255, 255, 0.75);
+      min-width: 240px;
+      // 
+      border-radius: 6px;
+      border: none;
+      // border: 1px solid white;
+      box-shadow: 0 1px 6px -2px #cbcbcb;
+      // transition: all .25s;
       
-      @media (max-width: 500px) {
+      @media (max-width: 600px) {
         min-width: initial;
         width: 150px;
       }
 
-      @media (max-width: 400px) {
-        min-width: initial;
-        width: 100px;
-      }
+      // @media (max-width: 400px) {
+      //   min-width: initial;
+      //   width: 100px;
+      // }
 
       &::placeholder {
         color: lighten(grey, 25);
@@ -161,35 +154,6 @@
       &:focus {
         outline: none;
       }
-    }
-
-  }
-
-  .headContainer .rightSide {
-    display: flex;
-    justify-content: flex-end;
-
-    a.contact {
-      color: #313131;
-      font-weight: 100;
-      font-size: 1.25em;
-      transition: border 0.15s;
-      text-align: right;
-      margin-top: .3em;
-      text-decoration: none;
-
-      @media (min-width: 500px) {
-        color: red;
-      }
-
-      &:hover {
-        color: #313131;
-      }
-      
-      &:active {
-        border-color: inherit;
-      }
-      
     }
 
   }

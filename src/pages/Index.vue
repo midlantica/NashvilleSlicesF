@@ -38,6 +38,8 @@
   }
 </script>
 
-<style>
-  
+<style lang="scss">
+  .container {
+    margin-bottom: 10em;
+  }
 </style>

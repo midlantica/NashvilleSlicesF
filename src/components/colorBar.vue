@@ -14,9 +14,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    flex-basis: 100%;
-    position: relative;
+    // position: relative;
+    position: fixed;
     z-index: 200;
+    // flex-basis: 100%;
+    width: 100%;
 
     .colItem {
       flex-grow: 1;

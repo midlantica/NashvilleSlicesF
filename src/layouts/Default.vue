@@ -1,31 +1,26 @@
 <template>
-  <div>
-    <colorBar />
-    <div class="layout" :class="{ 'sticky-header': $route.path === '/' }">
-      <Header />
+  <div class="layout" :class="{ 'sticky-header': $route.path === '/' }">
+    <Header />
 
-      <slot/>
+    <slot/>
 
-      <Footer />
-    </div>
+    <Footer />
   </div>
 </template>
 
 <script>
   import Header from "@/components/Header"
   import Footer from "@/components/Footer"
-  import colorBar from "@/components/colorBar"
 
   export default {
     components: {
       Header,
-      Footer,
-      colorBar
+      Footer
     }
   }
 </script>
 
-<style>
+<style lang="scss">
   * {
     box-sizing: border-box;
   }
@@ -52,7 +47,7 @@
     --color-contrast-1: rgb(243, 243, 243);
   }
 
-  .container {
+/*   .container {
     padding: 0 1rem;
   }
 
@@ -60,7 +55,7 @@
     .container {
       padding: 0 2rem;
     }
-  }
+  } */
 
   h1 {
     letter-spacing: -0.01em;

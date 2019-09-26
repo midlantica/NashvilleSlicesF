@@ -13,6 +13,13 @@
 // @import 'animations';
 // FONTS
 
+$base-font-size:   1rem;
+$base-line-height: 1.7em;
+$font:             barlow, Helvetica, Arial, sans-serif;
+$font-head:        barlow-regular, Helvetica, Arial, sans-serif;
+$font-subhead:     barlow-regular, Helvetica, Arial, sans-serif;
+$font-copy:        barlow-light, Helvetica, Arial, sans-serif;
+
 // BREAKPOINTS
 $breakThou:  1024px;
 $breakOne:   840px;

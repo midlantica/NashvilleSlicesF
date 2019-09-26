@@ -3,7 +3,6 @@
     <div class="container">
       <Hero />
       <ProjectsGrid :projects="$page.projects.edges" />
-      <!-- <LatestJournals :journals="$page.journals.edges" /> -->
     </div>
   </Layout>
 </template>
@@ -21,7 +20,7 @@
           path
         }
       }
-    },
+    }
   }
 </page-query>
 

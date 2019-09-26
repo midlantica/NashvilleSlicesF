@@ -3,7 +3,7 @@ import settings from "../data/theme.json";
 
 import "@/assets/code-highlight.css"
 
-import '~/assets/css/main.scss'
+import '@/assets/css/main.scss'
 
 export default function(Vue, { head }) {
   Vue.component("Layout", DefaultLayout);

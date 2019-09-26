@@ -10,4 +10,6 @@ project_bg_color: ''
 project_fg_color: ''
 
 ---
-this is some text 
+this is some text
+
+![](/uploads/D2A194E1-A18D-417C-8E6B-C09BC065E94B.jpeg)

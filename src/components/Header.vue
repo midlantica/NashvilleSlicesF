@@ -170,6 +170,10 @@
       padding: 12px 12px !important;
     }
 
+    .gsc-control-cse-en {
+      padding: 0;
+    }
+
     .gsc-search-button-v2 {
       padding: 8px !important;
       border-radius: 40px !important;
@@ -177,13 +181,25 @@
     }
 
     .gsc-results-wrapper-visible {
-      top: 70px !important;
+      top: 50px !important;
+      width: 90% !important;
+      right: 20px !important;
+      //
       position: absolute !important;
       background: white !important;
       padding: 1em !important;
       border-radius: 0.5em !important;
       box-shadow: 0 4px 13px 0px #00000021 !important;
     }
+
+    .g_sib_a {
+      width: 120px !important;
+    }
+
+    .gsc-input {
+      width: 120px !important;
+    }
+
   }
 
 </style>

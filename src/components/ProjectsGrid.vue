@@ -113,7 +113,7 @@
   }
 
   .category {
-    margin: .2em 0.1rem;
+    margin: .2em 0.1rem 1em;
     background: hsla(0, 0%, 95%, 0.9);
     padding: 0.25em 1em .3em;
     border-radius: 2.25em;

@@ -81,6 +81,7 @@
 
   .label {
     color: black;
+    font-weight: 500;
   }
 
   .project-info {
@@ -95,6 +96,10 @@
 
   .project-info > div:last-of-type {
 
+  }
+
+  .categories {
+    margin-bottom: 1em;
   }
 
   .category {

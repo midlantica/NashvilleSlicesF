@@ -49,7 +49,7 @@
 
   .layout {
     padding: 0;
-    padding: 8rem 0 0 0;
+    padding: 6rem 0 0 0;
     margin: 0 auto;
     max-width: 1600px;
   }

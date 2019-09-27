@@ -27,7 +27,7 @@ export default {
     font-size: 1.75rem;
     font-weight: 300;
     padding: 0;
-    margin: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
     color: #464646;
     letter-spacing: -0.01em;
   }

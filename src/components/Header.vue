@@ -69,6 +69,7 @@
     flex-grow: 0;
     text-decoration: none;
     align-items: center;
+    margin-top: 6px;
     &:hover {
       cursor: pointer;
       text-decoration: none;
@@ -111,13 +112,14 @@
 
     }
   
-
+  // MY ORIGINAL BEAUTIFUL SEARCH INPUT 
   .headContainer .searchBox {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     flex-basis: 25%;
     align-items: center;
+    margin-top: 6px;
 
     // @media (min-width: 500px) {
     //   // flex-basis: 10%;
@@ -160,6 +162,7 @@
 
   }
 
+  // FOR GOOGLE SEARCH HTML
   .headContainer .searchBox {
     //
     .gsc-input-box {

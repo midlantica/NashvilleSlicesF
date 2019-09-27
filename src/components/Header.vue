@@ -75,13 +75,13 @@
     }
 
       // .nashvilleN {
-      //   min-width: 50px;
+      //   min-width: 40px;
       // }
 
       .nashvilleN {
         width: 40px;
         height: 40px;
-        // min-width: 40px;
+        min-width: 40px;
         background: url(../assets/img/nashvilleSliceN.svg);
         background-size: cover;
         &:hover {

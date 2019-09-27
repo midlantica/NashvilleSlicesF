@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
   <style>
     .polyN {
       fill: #2A2A2A;
     }
   </style>
   <g fill="none" fill-rule="evenodd">
-    <rect class="polyN" width="40" height="40"/>
+    <rect class="polyN" width="50" height="50"/>
     <polygon fill="#FFF" fill-rule="nonzero" points="10.774 7.5 35.414 32.978 35.414 11.972 30.338 8.165 44.262 8.165 39.265 11.912 39.266 42.5 14.626 17.022 14.625 37.556 19.662 41.333 5.738 41.333 10.774 37.555"/>
   </g>
 </svg>

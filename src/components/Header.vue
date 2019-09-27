@@ -181,7 +181,7 @@
     }
 
     .gsc-results-wrapper-visible {
-      top: 50px !important;
+      top: 70px !important;
       width: 90% !important;
       right: 20px !important;
       //

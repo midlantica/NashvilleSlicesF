@@ -9,8 +9,9 @@
       </g-link>
 
       <div class="searchBox">
-        <input type="search" name="Search" placeholder="Search...">
-   </div>
+        <!-- <input type="search" name="Search" placeholder="Search..."> -->
+        <div class="gcse-search"></div>
+     </div>
 
     </div>
 

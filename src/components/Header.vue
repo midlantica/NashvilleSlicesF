@@ -126,14 +126,14 @@
     input {
       font-family: barlow-light, Helvetica, Arial, sans-serif;
       color: rgba(128, 128, 128, 1);
-      width: 100%;
-      height: 2em;
+      width: 100% !important;
+      height: 2em !important;
       padding: .25em 1em;
       background: rgba(255, 255, 255, 0.75);
       min-width: 240px;
       // 
       border-radius: 6px;
-      border: none;
+      border: none !important;
       // border: 1px solid white;
       box-shadow: 0 1px 6px -2px #cbcbcb;
       // transition: all .25s;
@@ -159,4 +159,29 @@
 
   }
 
+  .headContainer .searchBox {
+    //
+    .gsc-input-box {
+      border: none !important;
+    }
+
+    input {
+      padding: 12px 12px !important;
+    }
+
+    .gsc-search-button-v2 {
+      padding: 8px !important;
+      border-radius: 40px !important;
+      background: #363636  !important;
+    }
+  }
+
 </style>
+
+
+
+
+
+
+
+

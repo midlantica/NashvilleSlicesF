@@ -38,6 +38,6 @@
 
 <style lang="scss">
   .container {
-    margin-bottom: 10em;
+    margin-bottom: 1em;
   }
 </style>

@@ -1,9 +1,7 @@
 <template>
   <footer>
-    <div class="marB1" >
-      <a href="https://nashvilleslices.com/contact">Contact</a>
-    </div>
-    <span v-html="settings.footer" />
+    <a class="contact" href="https://nashvilleslices.com/contact">Contact</a>
+    <span class="copyright" v-html="settings.footer" />
   </footer>
 </template>
 
@@ -19,22 +17,41 @@
 
 <style lang="scss" scoped>
   footer {
-    font-size: 0.8rem;
-    padding: 2rem 0 3rem;
+    font-size: .95rem;
+    padding: .5rem 0 2rem;
     text-align: center;
     color:  grey;
     font-weight: 100;
-    background: rgba(255, 255, 255, 0.90);
-    // 
-    position: fixed;
-    z-index: 10;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    background: rgba(255, 255, 255, 1);
     box-shadow: 0 -2px 8px transparentize(black, .90);
+    // height: 30px;
+    display: flex;
+    width: 100%;
+    padding: 1em 2em;
+    justify-content: space-between;
   }
 
-  .marB1 {
-    margin-bottom: .5em;
+  footer * {
+    line-height: 1.5;
   }
+
+  .contact {
+    border: none !important;
+    text-decoration: none;
+    border: none;
+    // text-transform: uppercase;
+
+    &:hover {
+      color: black;
+      text-decoration: 1px solid black !important;
+      border-bottom: 1px solid black !important;
+    }
+  }
+
+  .copyright {
+    border: none;
+    text-decoration: none;
+    border: none;
+  }
+
 </style>

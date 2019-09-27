@@ -38,7 +38,7 @@
 
   header {
     position: relative;
-    height: 6rem;
+    height: 80px;
     z-index: 10;
     background: rgba(255, 255, 255, 0.85);
     border-bottom: 1px solid #f1f3f5;
@@ -79,10 +79,11 @@
       // }
 
       .nashvilleN {
-        width: 50px;
-        height: 50px;
-        min-width: 50px;
+        width: 40px;
+        height: 40px;
+        // min-width: 40px;
         background: url(../assets/img/nashvilleSliceN.svg);
+        background-size: cover;
         &:hover {
           fill: black;
         }
@@ -97,7 +98,7 @@
       }
 
       .logoType {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         color: #4d4d4d;
         margin: 0em 0 0 .5em;
         text-decoration: none;

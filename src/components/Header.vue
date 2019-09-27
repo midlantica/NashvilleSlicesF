@@ -9,6 +9,7 @@
       </g-link>
 
       <div class="searchBox">
+        <!-- SEARCH INPUT – USING GOOGLE -->
         <!-- <input type="search" name="Search" placeholder="Search..."> -->
         <div class="gcse-search"></div>
      </div>

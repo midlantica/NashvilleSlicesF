@@ -174,6 +174,15 @@
       border-radius: 40px !important;
       background: #363636  !important;
     }
+
+    .gsc-results-wrapper-visible {
+      top: 70px !important;
+      position: absolute !important;
+      background: white !important;
+      padding: 1em !important;
+      border-radius: 0.5em !important;
+      box-shadow: 0 4px 13px 0px #00000021 !important;
+    }
   }
 
 </style>

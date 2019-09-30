@@ -7,12 +7,12 @@
         </div>
 
         <!-- FORM -->
-        <form class="contact-form" name="contact"
-          name="contact"
-          method="post"
-          v-on:submit.prevent="handleSubmit"
-          action="/success/"
-          data-netlify="true"
+        <form class="contact-form"
+          name="contact" 
+          method="post" 
+          v-on:submit.prevent="handleSubmit" 
+          action="/success/" 
+          data-netlify="true" 
           data-netlify-honeypot="bot-field"
         >
           
@@ -52,29 +52,29 @@
 <script>
   export default {
     //
-  },
-  data() {
-    return {
-      formData: {}
-    }
-  },
-  methods: {
-    encode(data) {
-      return Object.keys(data)
-        .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-        .join('&')
+    data() {
+      return {
+        formData: {}
+      }
     },
-    handleSubmit(e) {
-      fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: this.encode({
-          'form-name': e.target.getAttribute('name'),
-          ...this.formData,
-        }),
-      })
-      .then(() => this.$router.push('/success'))
-      .catch(error => alert(error))
+    methods: {
+      encode(data) {
+        return Object.keys(data)
+          .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+          .join('&')
+      },
+      handleSubmit(e) {
+        fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: this.encode({
+            'form-name': e.target.getAttribute('name'),
+            ...this.formData,
+          }),
+        })
+        .then(() => this.$router.push('/success'))
+        .catch(error => alert(error))
+      }
     }
   }
 </script>

@@ -1,6 +1,6 @@
 ---
+title: Flower mural detail
 thumbnail: "/uploads/flower-mural.jpg"
-title: Gulch flower mural
 date: 2019-02-06
 categories:
 - photography
@@ -10,4 +10,9 @@ project_bg_color: ''
 project_fg_color: ''
 
 ---
+
+Think this is in 12 South next to Epice.
+
 ![](/uploads/flower-mural.jpg)
+
+[Epice Restaurant] (http://www.epicenashville.com/)

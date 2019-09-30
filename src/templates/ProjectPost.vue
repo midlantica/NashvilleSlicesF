@@ -64,7 +64,7 @@
 <style scoped>
 
   .project {
-    margin:  0 2em;
+    margin:  0 2em 5em;
   }
 
   .project-header {

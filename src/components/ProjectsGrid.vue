@@ -108,7 +108,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    height: calc(4em + -2px);
+    height: calc(4em + 7px);
     overflow: hidden;
   }
 

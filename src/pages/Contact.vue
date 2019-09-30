@@ -5,26 +5,45 @@
         <div class="contact-header">
           <h1 class="contact-title">Contact</h1>
         </div>
-        <form class="contact-form" name="contact">
+
+        <!-- FORM -->
+        <form class="contact-form" name="contact"
+          name="contact"
+          method="post"
+          v-on:submit.prevent="handleSubmit"
+          action="/success/"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
+          
+          <input type="hidden" name="form-name" value="contact" />
+          <p hidden>
+            <label>
+              <input name="bot-field" />
+            </label>
+          </p>
+
 
           <div class="sender-info">
             <div>
               <label for="name" class="label">Your name</label>
-              <input type="text" name="name" />
+              <input type="text" name="name" v-model="formData.name" />
             </div>
             <div>
               <label for="email" class="label">Your email</label>
-              <input type="email" name="email" />
+              <input type="email" name="email" v-model="formData.email" />
             </div>
           </div>
 
           <div class="message">
             <label for="message" class="label">Message</label>
-            <textarea name="message"></textarea>
+            <textarea name="message" v-model="formData.message" ></textarea>
           </div>
 
           <button class="button">Submit form</button>
         </form>
+        <!-- // FORM -->
+
       </div>
     </div>
   </Layout>
@@ -33,6 +52,30 @@
 <script>
   export default {
     //
+  },
+  data() {
+    return {
+      formData: {}
+    }
+  },
+  methods: {
+    encode(data) {
+      return Object.keys(data)
+        .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+        .join('&')
+    },
+    handleSubmit(e) {
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: this.encode({
+          'form-name': e.target.getAttribute('name'),
+          ...this.formData,
+        }),
+      })
+      .then(() => this.$router.push('/success'))
+      .catch(error => alert(error))
+    }
   }
 </script>
 

@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <a class="contact" href="https://nashvilleslices.com/contact">Contact</a>
+    <a class="contact" href="/contact">Contact</a>
     <span class="copyright" v-html="settings.footer" />
   </footer>
 </template>
@@ -29,6 +29,10 @@
     width: 100%;
     padding: 1em 2em;
     justify-content: space-between;
+    margin-top: 3em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
   }
 
   footer * {

@@ -65,6 +65,7 @@
 
   .project {
     margin:  0 2em 5em;
+    
   }
 
   .project-header {

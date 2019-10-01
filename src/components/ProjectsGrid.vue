@@ -51,9 +51,10 @@
     max-width: calc(100% / 3 - 10%);
     min-width: 260px;
     margin: 10px;
-    height: 360px;
+    height: 320px;
     background: white;
     box-shadow: 0px 0px 2px -1px rgba(0,0,0,0.5);
+    /* margin:  0 2em 5em; */
   }
 
   @media (max-width: 660px) {
@@ -108,7 +109,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    height: calc(4em + 7px);
+    height: calc(2em);
     overflow: hidden;
   }
 

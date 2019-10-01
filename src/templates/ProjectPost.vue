@@ -104,7 +104,7 @@
 
   .category {
     color: black;
-    margin: 0.1em 0.1rem;
+    margin: 0.1em 0.1rem 0;
     background: hsla(0, 0%, 95%, 0.9);
     padding: 0.25em 1em .3em;
     border-radius: 2.25em;

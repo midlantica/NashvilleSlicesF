@@ -1,7 +1,8 @@
 ---
 title: Valentina Harper's Mural on Nolensville Road
 thumbnail: "/uploads/valentina-mural-nolensvile.jpg"
-date: 2020-01-03
+date: 2018-08-03
+category: art
 categories:
 - photography
 - mural

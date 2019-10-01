@@ -5,9 +5,9 @@ title: Legends On The Corner
 category: Downtown
 thumbnail: "/uploads/Legends-on-the-Corner.jpg"
 categories:
-- photography
-- KVB
-- Sticks Roundabout
+- Honky Tonk
+- Bar
+- Country
 project_bg_color: ''
 project_fg_color: ''
 

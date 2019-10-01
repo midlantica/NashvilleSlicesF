@@ -5,7 +5,7 @@ title: Nashville City Cemetary, Mayor John P Erwin, 1795-1857
 category: cemetary
 thumbnail: "/uploads/john-p-erwin-nashville-city-cemetary.jpg"
 categories:
-- photography
+- history
 - cemetary
 - John P Erwin
 - Mayor

@@ -2,12 +2,12 @@
 date: 2019-05-16
 year: 2019
 title: Taco Menu @6th & Peabody
-category: Downtown
 thumbnail: "/uploads/Taco-menu-6th-and-peabody.jpg"
+category: Downtown
 categories:
-- RedneckRiviera
-- Honky Tonk
-- Broadway
+- Bar
+- Off-Broadway
+- Downtown
 project_bg_color: ''
 project_fg_color: ''
 

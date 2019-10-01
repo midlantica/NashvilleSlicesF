@@ -12,6 +12,6 @@ project_fg_color: ''
 
 ---
 
-Printer's Alley.
+Printer's Alley
 
 ![Printer's Alley](/uploads/cropped-printers-alley.jpg)  

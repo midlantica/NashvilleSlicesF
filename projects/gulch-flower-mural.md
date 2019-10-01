@@ -1,6 +1,7 @@
 ---
 title: Flower mural detail
 thumbnail: "/uploads/flower-mural.jpg"
+category: Flowers
 date: 2019-02-06
 categories:
 - photography

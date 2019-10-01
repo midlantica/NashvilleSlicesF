@@ -1,11 +1,11 @@
 ---
-date: 2019-05-16
-year: 2019
 title: Redneck Riviera Honky Tonk
-category: Downtown
+date: 2019-09-28
+year: 2019
 thumbnail: "/uploads/Redneck-Riviera-bar.jpg"
+category: Downtown
 categories:
-- RedneckRiviera
+- Redneck Riviera
 - Honky Tonk
 - Broadway
 project_bg_color: ''

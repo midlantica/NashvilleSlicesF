@@ -1,7 +1,7 @@
 ---
 title: Broadway Brewhouse
-date: 2019-05-16
-category: midtown
+date: 2019-09-16
+category: Bars
 thumbnail: "/uploads/09-28-2019-broadway-brewhouse.jpg"
 categories:
 - Beer

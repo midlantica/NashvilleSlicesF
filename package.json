@@ -8,10 +8,12 @@
     "forestry:preview": "gridsome develop -H 0.0.0.0 -p 8080"
   },
   "dependencies": {
+    "@gridsome/plugin-google-analytics": "^0.1.0",
     "@gridsome/remark-prismjs": "0.1.0",
     "@gridsome/source-filesystem": "^0.5.0",
     "@gridsome/transformer-remark": "^0.3.4",
-    "gridsome": "^0.6.9"
+    "gridsome": "^0.6.9",
+    "gridsome-plugin-purgecss": "^1.0.12"
   },
   "devDependencies": {
     "node-sass": "^4.12.0",

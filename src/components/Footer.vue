@@ -24,7 +24,6 @@
     font-weight: 100;
     background: rgba(255, 255, 255, 1);
     box-shadow: 0 -2px 8px transparentize(black, .90);
-    // height: 30px;
     display: flex;
     width: 100%;
     padding: 1em 2em;
@@ -39,7 +38,7 @@
     line-height: 1.5;
   }
 
-  .contact {
+  a.contact {
     border: none !important;
     text-decoration: none;
     border: none;
@@ -48,7 +47,8 @@
     &:hover {
       color: black;
       text-decoration: 1px solid black !important;
-      border-bottom: 1px solid black !important;
+      text-decoration: underline;
+      // border-bottom: 1px solid black !important;
     }
   }
 

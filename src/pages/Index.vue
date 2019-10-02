@@ -35,6 +35,15 @@
   import { Pager } from 'gridsome'
 
   export default {
+    metaInfo: {
+      title: 'Home',
+      meta: [
+        { 
+          name: 'Home', 
+          content: 'Home page' 
+        }
+      ]
+    },
     components: {
       Hero,
       ProjectsGrid,

@@ -8,7 +8,14 @@
 </template>
 
 <script>
-  //
+  export default {
+    metaInfo: {
+      title: '404',
+      meta: [
+        { name: '404', content: '404' }
+      ]
+    }
+  }
 </script>
 
 <style lang="scss">

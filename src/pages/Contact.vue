@@ -23,7 +23,6 @@
             </label>
           </p>
 
-
           <div class="sender-info">
             <div>
               <label for="name" class="label">Your name</label>
@@ -51,7 +50,15 @@
 
 <script>
   export default {
-    //
+    metaInfo: {
+      title: 'Contact!',
+      meta: [
+        { 
+          name: 'Contact', 
+          content: 'Contact form' 
+        }
+      ]
+    },
     data() {
       return {
         formData: {}

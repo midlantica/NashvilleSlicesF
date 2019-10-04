@@ -1,7 +1,7 @@
 ---
 title: Hog Heaven & Springwater
 date: 2019-10-01
-thumbnail: "/uploads/oct-2019/hog-heaven-bbq.jpg"
+thumbnail: "/uploads/oct-2019/oct-01/hog-heaven-bbq.jpg"
 category: History
 categories:
 - Centennial Park
@@ -11,7 +11,7 @@ project_bg_color: ''
 project_fg_color: ''
 ---
 
-![Hog Heaven BBQ, Centennial Park, Nashville](/uploads/oct-2019/hog-heaven-bbq.jpg)
+![Hog Heaven BBQ, Centennial Park, Nashville](/uploads/oct-2019/oct-01/hog-heaven-bbq.jpg)
 
-![Springwater, Centennial Park, Nashville](/uploads/oct-2019/springwater.jpg)
+![Springwater, Centennial Park, Nashville](/uploads/oct-2019/oct-01/springwater.jpg)
 

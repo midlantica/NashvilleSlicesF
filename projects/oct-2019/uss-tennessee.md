@@ -1,7 +1,7 @@
 ---
 title: USS Tennessee
 date: 2019-10-01
-thumbnail: "/uploads/oct-2019/uss-tennessee.jpg"
+thumbnail: "/uploads/oct-2019/oct-01/uss-tennessee.jpg"
 category: History
 categories:
 - Centennial Park
@@ -10,5 +10,5 @@ project_bg_color: ''
 project_fg_color: ''
 ---
 
-![USS Tennessee, Nashville](/uploads/oct-2019/uss-tennessee.jpg)
+![USS Tennessee, Nashville](/uploads/oct-2019/oct-01/uss-tennessee.jpg)
 

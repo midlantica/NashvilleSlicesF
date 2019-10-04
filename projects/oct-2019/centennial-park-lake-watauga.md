@@ -1,12 +1,12 @@
 ---
-title: Lake Watauga, Centennial Park
+title: Centennial Park, Lake Watauga
 date: 2019-10-01
 category: Park
 thumbnail: "/uploads/oct-2019/oct-01/lake-watauga-12.jpg"
 categories:
 - Centennial Park
+- Lake Watauga
 - Park
-- Lake
 project_bg_color: ''
 project_fg_color: ''
 ---

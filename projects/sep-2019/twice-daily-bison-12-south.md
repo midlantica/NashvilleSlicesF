@@ -1,5 +1,5 @@
 ---
-title: Twice Daily, with bison, 12 South
+title: Twice Daily with bison
 date: 2019-09-30
 thumbnail: "/uploads/sep-2019/twice-daily-bison-12-south.jpg"
 category: Shop

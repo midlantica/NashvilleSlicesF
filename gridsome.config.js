@@ -14,9 +14,16 @@ module.exports = {
         path: "projects/**/*.md",
         typeName: "ProjectPost",
         resolveAbsolutePaths: true,
+        route: '/projects/:year/:month/:day/:slug',
         remark: {
           externalLinksTarget: "_blank",
-          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
+          externalLinksRel: ["nofollow", "noopener", "noreferrer"],
+          plugins: [
+            [ '@noxify/gridsome-plugin-remark-embed', {
+                'enabledProviders' : ['Youtube', 'Twitter', 'Gist', 'Giphy', 'Spotify'],
+            }],
+            ['gridsome-plugin-remark-youtube']
+          ]
         }
       }
     },

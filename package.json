@@ -12,8 +12,10 @@
     "@gridsome/remark-prismjs": "0.1.0",
     "@gridsome/source-filesystem": "^0.5.0",
     "@gridsome/transformer-remark": "^0.3.4",
+    "@noxify/gridsome-plugin-remark-embed": "^1.1.5",
     "gridsome": "^0.6.9",
-    "gridsome-plugin-purgecss": "^1.0.12"
+    "gridsome-plugin-purgecss": "^1.0.12",
+    "gridsome-plugin-remark-youtube": "^1.0.1"
   },
   "devDependencies": {
     "node-sass": "^4.12.0",

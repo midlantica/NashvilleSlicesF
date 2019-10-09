@@ -12,7 +12,7 @@ project_fg_color: ''
 
 Andy & Karen Leese touring Nashville  
 
-They're English. Andy's from Stoke, England. They live on the Isle of Erin, Scotland!   
+They're English. Andy's from Stoke, England. They live on the Isle of Arran, Scotland!   
 
 Memphis tomorrow! 
 

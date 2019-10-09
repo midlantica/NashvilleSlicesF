@@ -1,5 +1,5 @@
 ---
-title: Andy & Karen Leese touring Nashville
+title: Andy & Karen Leese visit Nashville
 date: 2019-10-09
 thumbnail: "/uploads/oct-2019/oct-09/andy-karen-leese.jpg"
 category: Tourism

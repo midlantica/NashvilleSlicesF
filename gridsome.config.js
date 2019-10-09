@@ -24,9 +24,18 @@ module.exports = {
             }],
             ['gridsome-plugin-remark-youtube']
           ]
-        }
+        },
       }
     },
+    // {
+    //   use: '@gridsome/vue-remark',
+    //   options: {
+    //     typeName: 'JournalPost', // Required
+    //     baseDir: './journals', // Where .md files are located
+    //     pathPrefix: '/journals', // Add route prefix. Optional
+    //     template: './src/templates/JournalPost.vue' // Optional
+    //   }
+    // },
     {
       use: 'gridsome-plugin-purgecss',
       // default options, the following will be included if you don't provide anything
@@ -43,6 +52,11 @@ module.exports = {
       }
     }
   ],
+  transformers: {
+    remark: {
+      plugins: ["@gridsome/remark-prismjs"]
+    }
+  },
   icon: {
     favicon: {
       src: './src/favicon.png',
@@ -54,9 +68,4 @@ module.exports = {
       precomposed: true,
     },
   },
-  transformers: {
-    remark: {
-      plugins: ["@gridsome/remark-prismjs"]
-    }
-  }
 };

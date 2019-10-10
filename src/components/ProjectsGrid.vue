@@ -29,7 +29,7 @@
 
 <style scoped>
   .projects {
-/*     display: grid;
+  /*     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3rem;
     // */

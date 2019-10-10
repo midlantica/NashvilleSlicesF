@@ -1,7 +1,7 @@
 ---
 title: Bicentennial Mall
 date: 2019-10-09
-thumbnail: "/uploads/oct-2019/oct-09/bicentennial-mall/bicentennial-mall-00.jpg"
+thumbnail: "/uploads/oct-2019/oct-09/bicentennial-mall/bicentennial-mall-02.jpg"
 category: Place
 categories:
 - Park
@@ -9,6 +9,8 @@ categories:
 project_bg_color: ''
 project_fg_color: ''
 ---
+
+![Bicentennial Mall](/uploads/oct-2019/oct-09/bicentennial-mall/bicentennial-mall-24.jpg)
 
 ![Bicentennial Mall](/uploads/oct-2019/oct-09/bicentennial-mall/bicentennial-mall-01.jpg)
 
@@ -62,7 +64,6 @@ project_fg_color: ''
 
 ![Bicentennial Mall](/uploads/oct-2019/oct-09/bicentennial-mall/bicentennial-mall-23.jpg)
 
-![Bicentennial Mall](/uploads/oct-2019/oct-09/bicentennial-mall/bicentennial-mall-24.jpg)
 
 [Bicentennial Mall](https://tnstateparks.com/parks/bicentennial-mall)
 

@@ -1,5 +1,5 @@
 ---
-title: Andy & Karen Leese visit Nashville
+title: Andy & Karen visit Nashville
 date: 2019-10-09
 thumbnail: "/uploads/oct-2019/oct-09/andy-karen-leese.jpg"
 category: Tourism
@@ -19,6 +19,7 @@ Memphis tomorrow!
 ![Andy & Karen Leese touring Nashville](/uploads/oct-2019/oct-09/andy-karen-leese.jpg)
 
 
-<a href="https://goo.gl/maps/RfzDKmVG8iegJiw37">Google Map – Isle of Arran, Scotland, UK</a>
-<br>
-<a href="https://www.visitscotland.com/destinations-maps/arran/">Isle of Arran Tourism site, Scotland, UK</a>
+[Google Map – Isle of Arran, Scotland, UK](https://goo.gl/maps/RfzDKmVG8iegJiw37)  
+
+[Isle of Arran Tourism site, Scotland, UK](https://www.visitscotland.com/destinations-maps/arran/)  
+

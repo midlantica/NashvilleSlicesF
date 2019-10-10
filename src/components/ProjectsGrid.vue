@@ -49,7 +49,7 @@
     text-align: center;
     border-radius: 2px;    
     max-width: calc(100% / 3 - 10%);
-    min-width: 260px;
+    min-width: 320px;
     margin: 10px;
     height: 320px;
     background: white;

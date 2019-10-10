@@ -10,7 +10,7 @@
 
 <page-query>
   query Posts($page: Int) {
-  	projects: allProjectPost(perPage: 10, page: $page) @paginate {
+  	projects: allProjectPost(perPage: 12, page: $page) @paginate {
       pageInfo {
         totalPages
         currentPage
@@ -73,8 +73,14 @@
       &:hover {
         color: black;
       }
+
+      &.active--exact.active {
+        color: white;
+        background: desaturate(lighten(#00be00, 10), 20);
+      }
     }
   }
+
 </style>
 
 

@@ -76,7 +76,7 @@
 
       &.active--exact.active {
         color: white;
-        background: desaturate(lighten(#00be00, 10), 20);
+        background: rgba(24, 217, 24, 0.6);
       }
     }
   }

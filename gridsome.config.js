@@ -50,7 +50,22 @@ module.exports = {
         ],
         defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || [],
       }
-    }
+    },
+    {
+      use: 'gridsome-plugin-pwa',
+      options: {
+        title: 'NashvilleSlices.com',
+        startUrl: '/',
+        display: 'standalone',
+        statusBarStyle: 'default',
+        manifestPath: 'manifest.json',
+        serviceWorkerPath: 'service-worker.js',
+        shortName: 'NashvilleSlices',
+        themeColor: '#666600',
+        backgroundColor: '#ffffff',
+        icon: './src/favicon.png' // must be supplied!
+      }
+    },
   ],
   transformers: {
     remark: {

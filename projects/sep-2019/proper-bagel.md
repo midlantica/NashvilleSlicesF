@@ -21,6 +21,5 @@ Proper Bagel
 
 ![Proper Bagel](/uploads/sep-2019/proper-bagel-04.jpg)
 
-
-
+[Proper Bagel] (http://properbagel.com/)
 

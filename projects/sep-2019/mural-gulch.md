@@ -8,6 +8,6 @@ categories:
 - Gulch
 project_bg_color: ''
 project_fg_color: ''
-
 ---
+
 ![Mural in the Gulch](/uploads/aug-2019/mural-01.jpg)

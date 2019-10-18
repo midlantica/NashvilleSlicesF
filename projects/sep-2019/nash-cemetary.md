@@ -15,6 +15,9 @@ project_fg_color: ''
 ---
 
 #### Nashville City Cemetary
+
+*– Text taken from [Nashville City Cemetary website] (http://www.thenashvillecitycemetery.org)*
+
 John P. Erwin  
 Section 28.2  
 ID # 281026  

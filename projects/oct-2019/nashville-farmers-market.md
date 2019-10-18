@@ -56,6 +56,4 @@ project_fg_color: ''
 
 ![Nashville Farmers Market](/uploads/oct-2019/oct-09/farmers-market/farmers-market-20.jpg)
 
-(Nashville Farmers Market)[https://www.nashvillefarmersmarket.org]
-
-
+[Nashville Farmers Market](https://www.nashvillefarmersmarket.org)

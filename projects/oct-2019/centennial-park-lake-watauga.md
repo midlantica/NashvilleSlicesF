@@ -57,4 +57,4 @@ project_fg_color: ''
 
 ![Lake Watauga, Centennial Park, Nashville](/uploads/oct-2019/oct-01/lake-watauga-22.jpg)
 
-
+[Lake Watauga, Centennial Park, Nashville] (https://www.nashville.gov/Parks-and-Recreation/Parks/Centennial-Park.aspx)

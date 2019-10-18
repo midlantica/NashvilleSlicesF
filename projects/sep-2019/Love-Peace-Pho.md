@@ -11,7 +11,6 @@ project_bg_color: ''
 project_fg_color: ''
 ---
 
-![Love Peace & Pho, 8th South](/uploads/sep-2019/Love-Peace-Pho.jpg)<br><br>
+![Love Peace & Pho, 8th South](/uploads/sep-2019/Love-Peace-Pho.jpg)  
 
-
-
+[Love Peace & Pho, 8th South Facebook] (https://www.facebook.com/lovepeaceandpho/)

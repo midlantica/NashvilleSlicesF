@@ -17,4 +17,4 @@ Redneck Riviera.
 
 ![](/uploads/aug-2019/Redneck-Riviera-bar.jpg)
 
-[Redneck Riviera] (https://redneckrivieranashville.com/)
+[Redneck Riviera Honky Tonk] (https://redneckrivieranashville.com/)

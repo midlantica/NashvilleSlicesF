@@ -15,4 +15,4 @@ project_fg_color: ''
 
 Korean Vetrerans Blvd Sticks Roundabout.
 
-![Korean Vetrerans Bridge Sticks Roundabout](/uploads/aug-2019/sticks-jump.jpg)
+![Korean Vetrerans Bridge Sticks Roundabout] (/uploads/aug-2019/sticks-jump.jpg)

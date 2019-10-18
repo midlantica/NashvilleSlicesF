@@ -1,5 +1,5 @@
 {
-  "name": "itsnwa.com",
+  "name": "NashvillSlices.com",
   "private": true,
   "scripts": {
     "build": "gridsome build",
@@ -12,10 +12,11 @@
     "@gridsome/remark-prismjs": "0.1.0",
     "@gridsome/source-filesystem": "^0.5.0",
     "@gridsome/transformer-remark": "^0.3.4",
-    "@gridsome/vue-remark": "^0.1.6",
+    "@gridsome/vue-remark": "^0.1.7",
     "@noxify/gridsome-plugin-remark-embed": "^1.1.5",
-    "gridsome": "^0.6.9",
+    "gridsome": "^0.7.8",
     "gridsome-plugin-purgecss": "^1.0.12",
+    "gridsome-plugin-pwa": "0.0.9",
     "gridsome-plugin-remark-youtube": "^1.0.1"
   },
   "devDependencies": {

@@ -10,8 +10,6 @@ project_bg_color: ''
 project_fg_color: ''
 ---
 
-12 South mural   
-
-![12 South Taproom](/uploads/sep-2019/12-south-mural.jpg)
+![Near 12 South Taproom](/uploads/sep-2019/12-south-mural.jpg)
 
 

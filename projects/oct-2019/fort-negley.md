@@ -28,3 +28,4 @@ project_fg_color: ''
 
 ![Fort Negley, Civil War](/uploads/oct-2019/oct-03/fort-negley-view-07.jpg)
 
+[Fort Negley, Civil War] (https://www.nashville.gov/Parks-and-Recreation/Historic-Sites/Fort-Negley/History.aspx)

@@ -19,6 +19,6 @@ Edley's Bar-B-Que
 
 ![Edley's Bar-B-Que](/uploads/sep-2019/edleys-bar-b-que-03.jpg)
 
-
+[Edley's Bar-B-Que] (https://www.edleysbbq.com/)
 
 

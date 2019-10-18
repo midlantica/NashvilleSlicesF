@@ -12,6 +12,6 @@ project_fg_color: ''
 
 ---
 
-Printer's Alley
-
 ![Printer's Alley](/uploads/aug-2019/cropped-printers-alley.jpg)  
+
+[Printer's Alley] (http://printersalley.com/)

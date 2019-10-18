@@ -10,7 +10,7 @@ project_bg_color: ''
 project_fg_color: ''
 ---
 
-![Islamic Center of Nashville, 12 South](/uploads/sep-2019/islamic-center-of-nashville-12-south.jpg)<br><br>
+![Islamic Center of Nashville, 12 South](/uploads/sep-2019/islamic-center-of-nashville-12-south.jpg)  
 
 
 

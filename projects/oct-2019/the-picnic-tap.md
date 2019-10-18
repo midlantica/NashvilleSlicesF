@@ -17,5 +17,4 @@ project_fg_color: ''
 
 ![The Picnic Tap](/uploads/oct-2019/oct-09/the-picnic-tap/the-picnic-tap-03.jpg)
 
-
 [The Picnic Tap](http://www.thepicnictap.com)

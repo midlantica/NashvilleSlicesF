@@ -23,5 +23,4 @@ project_fg_color: ''
 
 ![Tennessee State museum](/uploads/oct-2019/oct-09/tn-st-museum/tn-st-museum-03c.jpg)
 
-
 [Tennnessee State Museum](https://tnmuseum.org)

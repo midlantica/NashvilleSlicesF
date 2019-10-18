@@ -12,3 +12,4 @@ project_fg_color: ''
 
 ![Women Suffrage Statue](/uploads/oct-2019/oct-01/women-suffrage-statue.jpg)
 
+[Women Suffrage Statue, Wikipedia] (https://en.wikipedia.org/wiki/Tennessee_Woman_Suffrage_Memorial)

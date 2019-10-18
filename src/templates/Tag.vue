@@ -12,22 +12,22 @@
 </template>
 
 <page-query>
-query Tag($id: ID!) {
-  tag(id: $id) {
-    title
-    belongsTo {
-      edges {
-        node {
-          ... on Post {
-            id
-            title
-            path
+  query Tag($id: ID!) {
+    tag(id: $id) {
+      title
+      belongsTo {
+        edges {
+          node {
+            ... on Post {
+              id
+              title
+              path
+            }
           }
         }
       }
     }
   }
-}
 </page-query>
 
 <script>

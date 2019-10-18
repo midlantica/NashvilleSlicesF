@@ -11,7 +11,7 @@ project_bg_color: ''
 project_fg_color: ''
 ---
 
-Filling Station, 12 South, a neigbourhood favorite. 
+Filling Station, 12 South.
 
 ![12 South Taproom](/uploads/sep-2019/filling-station-12-south-01.jpg)<br><br>
 ![12 South Taproom](/uploads/sep-2019/filling-station-12-south-02.jpg)<br><br>

@@ -16,4 +16,4 @@ project_fg_color: ''
 
 [Bicentennial Mall](https://tnstateparks.com/parks/bicentennial-mall)  
 
-[Nashville Bicentennial Mall](https://www.nashvilledowntown.com/go/bicentennial-mall)  
+[Nashville Bicentennial Mall] (https://www.nashvilledowntown.com/go/bicentennial-mall)  

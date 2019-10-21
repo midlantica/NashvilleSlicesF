@@ -14,7 +14,7 @@ module.exports = {
         path: "projects/**/*.md",
         typeName: "ProjectPost",
         resolveAbsolutePaths: true,
-        route: '/projects/:year/:month/:day/:slug',
+        route: '/projects/:year/:month/:day/:title',
         remark: {
           externalLinksTarget: "_blank",
           externalLinksRel: ["nofollow", "noopener", "noreferrer"],
